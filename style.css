@@ -1,0 +1,146 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述　*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%; /* 横幅いっぱい　*/
+  height: 50px; /* 高さ120px */
+  background-color: #ff9a4b; /* 背景色light orange */
+}
+
+.main {
+  width: 960px; /* 横幅いっぱい */
+  display: flex; /* Flexboxの利用 */
+  margin: 50px auto;
+}
+
+.flex-box {
+  width: 300px;
+  height: 300px;
+  background-color: #eeeeee; /* 背景色淡いグレー　*/
+  position: relative;
+  margin: 0 30px 0 0;
+}
+
+.step1-image {
+  width: 280px; /* 横幅280px */
+  height: 150px; /* 高さ150px */
+  margin: 0 auto;
+  margin: 10px 10px 0 10px;
+}
+
+.box-step {
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.step1-text {
+  color: black;
+}
+
+.title {
+  margin: 0 15px 0 5px;
+}
+
+.step2-image {
+  width: 280px; /* 横幅280px */
+  height: 150px; /* 高さ150px */
+  margin: 10px 10px 0 10px;
+}
+
+.step2-text {
+  color: black;
+}
+
+.step3-image {
+  width: 280px; /* 横幅280px */
+  height: 150px; /* 高さ150px */
+  margin: 10px 10px 0 10px;
+}
+
+.step3-text {
+  color: black;
+}
+
+.footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 50px; /* 高さ50px */
+  background-color: #aaaaaa; /* 背景色沈んだグレー　*/
+}
+@media screen and (max-width: 768px) {
+
+.header {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  display: block;
+}
+
+.flex-box {
+  width: 90%;
+  margin: 0 5% 20px 5%;
+}
+
+.step1-image {
+  width: 95%;
+
+}
+
+.box-step {
+  width: 12%;
+}
+
+.step1-text {
+  width: 100%;
+  padding-top: 5px;
+}
+
+.title {
+  width: 100%;
+}
+
+.step2-image {
+  width: 95%;
+}
+
+.step2-text {
+  width: 100%;
+  padding-top: 5px;
+}
+
+.step3-image {
+  width: 95%;
+}
+
+.step3-text {
+  width: 100%;
+  padding-top: 5px;
+}
+
+.footer {
+  width: 100%;
+}
+
+
+
+
+
+
+/*
+.instagram-box:nth-child(odd) {
+  margin-right: 4%;
+}
+
+.pagination {
+  margin-bottom: 50px;
+}
+*/
